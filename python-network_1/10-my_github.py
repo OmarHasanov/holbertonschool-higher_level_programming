@@ -28,4 +28,4 @@ def display_github_id():
 
 
 if __name__ == "__main__":
-    display_github_id():
+    display_github_id()
