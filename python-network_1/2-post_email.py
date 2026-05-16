@@ -15,11 +15,11 @@ def send_post_email():
     """
     url = sys.argv[1]
     email = sys.argv[2]
-    
+
     # Pack data into a dictionary and encode it to URL format
     data = {'email': email}
     encoded_data = urllib.parse.urlencode(data).encode('utf-8')
-    
+
     # Create the POST request object with data payload
     req = urllib.request.Request(url, data=encoded_data)
 
